@@ -1,0 +1,7 @@
+<div class="col-md-2 sidenav">
+  <div ng-repeat="people in peoples.People | filter: {name: search}">
+    <a ng-click="display(people)">{{people.name}}
+      <i class="fa fa-caret-right" style="font-size:36px;float: right;"></i>
+    </a>
+  </div>
+</div>
